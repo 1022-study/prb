@@ -3,12 +3,12 @@
 <body>
   
   <input id="inp" type="text"></input>
-  <button id="int">Guardar</button>
+  <button id="b">Guardar</button>
   
   <script>
    document.getElementById("b").addEventListener("click", function () {
 
-    var inp = document.getElementById("int");
+    var inp = document.getElementById("inp");
     localStorage.setItem("input", inp.value);
 
 });
